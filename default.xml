@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="dunfell"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="git://github.com/meta-rust" name="rust"/>
+  <remote fetch="git://github.com/kraj" name="clang"/>
+  <remote fetch="git://git.yoctoproject.org" name="raspberrypi" />
+  <remote fetch="https://github.com/sepfy" name="sepfy" />
+
+
+  <project remote="yocto" revision="dunfell" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="dunfell" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="rust" revision="7f235b6f8973cc5269448375f2a8f9867bb2a369" name="meta-rust" path="sources/meta-rust"/>
+  <project remote="clang" revision="dunfell" name="meta-clang" path="sources/meta-clang"/>
+  <project remote="raspberrypi" revision="dunfell" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+  <project remote="sepfy" revision="master" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="sepfy" revision="main" name="meta-gecko" path="sources/meta-gecko"/>
+
+
+</manifest>
